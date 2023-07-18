@@ -1081,6 +1081,7 @@ img {
 
   .header-nav .container  {
     justify-content: space-between;
+    width: 100%;
   }
 
 .menu-toggle {
@@ -1122,34 +1123,18 @@ img {
   }
 
   .second-title-text .text-icon {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+   display: none;
+  }
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    transition: 1s ease-in-out;
-
+  .second-title .list .title-list {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02px;
   }
 
   .our-job {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    transition: 1s ease-in-out;
+   display: none;
   }
 
   .customers-list {
@@ -1196,6 +1181,41 @@ img {
     justify-content: center;
   }
 
+  .footer-input {
+    width: 398px;
+  }
+
+  .portfolio-section .container .buttons {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .card-list {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-card {
+    width: 100%;
+  }
+
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3f51b5;
+    z-index: 999;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    overflow: hidden;
+  }
+
+  .menu-container.is-open {
+    transform: translateX(0);
+  }
+
 }
 
 @media (min-width:768px) and (max-width:1158px) {
@@ -1210,7 +1230,12 @@ img {
   }
 
   .header-nav {
-    padding: 16px 0 5px 0;
+    padding: 16px 16px 5px 16px;
+  }
+
+  .header-nav .container {
+    justify-content: space-between;
+    width: 100%;
   }
 
   .menu .nav-pages {
@@ -1221,8 +1246,66 @@ img {
     flex-direction: column;
     gap: 12px;
     align-items: center;
-    
   }
+
+  .second-title-text .text-icon {
+   display: none;
+  }
+
+  .second-title .container .list {
+    flex-wrap: wrap;
+  }
+
+  .container .list .second-title-text {
+    width: calc((100% - 40px) / 2);
+  }
+
+  .second-title .list .title-list {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+  }
+
+  .our-job {
+    display: none;
+  }
+
+  .our .container .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .customers-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .customers-list .customers {
+    width: calc((100% - 30px) / 4);
+  }
+
+  .footer .container{
+    flex-wrap: wrap;
+    margin-left: 108px;
+  }
+
+  .container-logo {
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+
+  .card-list {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 48px) / 2);
+  }
+
+  
 
 }
 
