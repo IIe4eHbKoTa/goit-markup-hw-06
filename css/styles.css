@@ -114,7 +114,7 @@ img {
   background-color: #404bbf;
 }
 
-.pages:hover{
+.pages:hover {
   position: relative;
   left: 0;
   bottom: -1px;
@@ -287,7 +287,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-
 }
 
 .modal-button {
@@ -308,7 +307,6 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .modal-text {
   text-align: center;
   font-family: "Roboto" sans-serif;
@@ -316,7 +314,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#2E2F42 ;
+  color: #2e2f42;
   margin-bottom: 16px;
 }
 
@@ -331,22 +329,19 @@ img {
 }
 
 .modal-label {
-  display:block ;
+  display: block;
   margin-bottom: 4px;
 
   font-family: "Roboto" sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8E8F99;
+  color: #8e8f99;
 }
 
 .label-container {
   position: relative;
 }
-
-
-
 
 .modal-input {
   width: 100%;
@@ -357,21 +352,19 @@ img {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
-  
-  
 }
 
-.modal-icon{
+.modal-icon {
   position: absolute;
   top: 50%;
   left: 16px;
-  color: #2E2F42;
+  color: #2e2f42;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-container {
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -379,10 +372,10 @@ img {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
-  height:120px;
+  height: 120px;
   resize: none;
   padding: 8px 16px;
-  outline: transparent; 
+  outline: transparent;
 
   color: rgba(46, 47, 66, 0.4);
 
@@ -395,8 +388,6 @@ img {
 .license-container {
   margin-bottom: 24px;
 }
-
-
 
 .visually-hidden {
   position: absolute;
@@ -417,33 +408,30 @@ img {
   width: 100%;
 }
 
-.checkbox:checked + .checkbox-text .privacy{
+.checkbox:checked + .checkbox-text .privacy {
   border: none;
-  background-color:#404bbf;
-  fill: #F4F4FD;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
-.checkbox:focus + .checkbox-text .privacy{
-  background-color:#404bbf;
+.checkbox:focus + .checkbox-text .privacy {
+  background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
-
-
 
 .checkbox-text {
-  color: #8E8F99;
+  color: #8e8f99;
   font-family: "Roboto" sans-serif;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04em; 
+  letter-spacing: 0.04em;
   cursor: pointer;
-  
+
   display: flex;
   align-self: baseline;
   gap: 8px;
 }
-
 
 .checkbox-link {
   color: #4d5ae5;
@@ -456,21 +444,19 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms 
-  cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
-
 }
 
-.send-button{
+.send-button {
   margin: 0 auto;
   display: block;
-  min-width: 169px ;
+  min-width: 169px;
   height: 56px;
   min-height: 56px;
 
@@ -497,17 +483,16 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .modal-input:hover,
 .modal-input:focus,
 .modal-textarea:hover,
 .modal-textarea:focus {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .modal-button:hover,
@@ -864,17 +849,16 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff; 
+  color: #ffffff;
   margin-bottom: 16px;
 }
-
 
 .footer-input {
   border-radius: 4px;
   border: 1px solid #ffffff;
   width: 264px;
   height: 40px;
-  
+
   background-color: transparent;
 
   font-size: 12px;
@@ -884,7 +868,6 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
   display: flex;
-
 }
 
 .footer-form {
@@ -898,12 +881,11 @@ img {
 }
 
 .footer-input::placeholder {
-  color:#ffffff;
-
+  color: #ffffff;
 }
 
 .footer-button {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
@@ -915,7 +897,7 @@ img {
 
   cursor: pointer;
 
-  font-family:"Roboto" sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -1079,3 +1061,168 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.menu-toggle {
+  display: none;
+}
+
+@media screen and (min-width:0px) and (max-width:768px){
+  .container {
+    width: 396px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+  .header-nav .nav-pages,
+  .header-nav .header-adress {
+   display: none;
+  }
+
+  .header-nav .container  {
+    justify-content: space-between;
+  }
+
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+
+.menu .link:hover,
+.menu .link:focus {
+  text-decoration: underline;
+}
+
+
+  .second-title .container .list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 72px;
+  }
+
+  .second-title-text {
+    width: 396px;
+  }
+
+  .second-title-text .title-list {
+    text-align: center;
+  }
+
+  .second-title-text .text-icon {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    transition: 1s ease-in-out;
+
+  }
+
+  .our-job {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    transition: 1s ease-in-out;
+  }
+
+  .customers-list {
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0 auto;
+  }
+
+  .customers {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
+  .our .container .list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 72px;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 72px;
+  }
+
+  .container-logo {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-media {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sub-section {
+    text-align: center;
+  }
+
+  .footer-form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1158px) {
+  .container {
+    width: 736px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .header-nav {
+    padding: 16px 0 5px 0;
+  }
+
+  .menu .nav-pages {
+    margin-right: 121px;
+  }
+
+  .header-adress .list {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    
+  }
+
+}
+
