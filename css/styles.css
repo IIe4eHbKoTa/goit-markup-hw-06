@@ -177,7 +177,7 @@ img {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  margin: 48px auto;
+  margin: 48px auto 0 auto;
   border: none;
   border-radius: 4px;
 
@@ -543,7 +543,8 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
-  padding: 24px 100px;
+  
+  height: 112px;
 }
 
 .second-title .list .title-list {
@@ -1051,7 +1052,7 @@ img {
   display: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
   .container {
     width: 396px;
     padding: 0 15px;
@@ -1094,7 +1095,7 @@ img {
   background-image: 
   linear-gradient( rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7) ), 
-  url(../images/Dark-bg.jpg);
+  url(../images/people-office@1x.jpg);
 
   padding: 112px 0;
 }
@@ -1106,7 +1107,7 @@ img {
 }
 
 .main-title .main-button {
-  margin:72px auto ;
+  margin:72px auto 0 auto ;
 }
 
 
@@ -1293,6 +1294,10 @@ img {
   color: #2E2F42;
   }
 
+  .link-list .menu-page-active{
+    color: #4D5AE5;
+  }
+
   .link-list .menu-pages:hover,
   .link-list .menu-pages:focus {
     color:#404bbf;
@@ -1312,7 +1317,7 @@ img {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-  color: #434455;
+  color: #4D5AE5;
   }
 
   .ad-list .link-mail {
@@ -1346,6 +1351,7 @@ img {
     gap: 56px;
     margin-left: 0;
     padding: 0;
+    transition: 250ms ease-in-out;
   }
 
   .social-list-menu .list-link .link {
@@ -1386,7 +1392,7 @@ img {
 
 }
 
-@media (min-width:768px) and (max-width:1158px) {
+@media (min-width:767px) and (max-width:1158px) {
   .container {
     width: 768px;
     margin: 0 auto;
@@ -1397,11 +1403,13 @@ img {
   }
 
   .header-nav {
-    padding: 16px 16px 10px 16px;
+    padding: 16px 0 10px 0;
   }
 
   .header-nav .container {
     justify-content: space-between;
+    align-items: center;
+    
   }
 
   .menu .nav-pages {
@@ -1422,7 +1430,7 @@ img {
     background-image: 
     linear-gradient( rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7) ), 
-    url(../images/people-office@1x.jpg);
+    url(../images/people-office.jpg);
 
     padding: 112px 0;
   }
@@ -1435,7 +1443,6 @@ img {
 
   .second-title .container .list {
     gap: 72px 24px;
-    width: 768px;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -1517,52 +1524,75 @@ img {
    overflow: scroll;
   }
 
+
+
 }
 
 @media (max-width:427px){
 
 
   .container {
-    width: 320px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
   }
 
   .header-nav {
-    min-width: 320px;
+    max-width: 396px;
+    margin: 0 auto;
   }
 
   .main-title {
     min-width: 320px;
   }
 
+  .main-title {
+    background-image: 
+    linear-gradient( rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7) ), 
+    url(../images/Dark-bg.jpg);
+  
+    padding: 112px 0;
+  }
+
   .second-title-text {
     width: 100%;
+    margin: 0 auto;
   }
 
 .sub-section {
   max-width: 100%;
 }
 
-.footer {
-  min-width: 320px;
+.form-label {
+  min-width: 300px;
+  
 }
 
-.footer-form {
-  width: 100%;
-} 
-
 .footer-input {
-  width: 300px;
+  max-width: 398px;
 }
 
 .modal {
   max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-form {
+  max-height: 100%;
 }
 
 
 
-.modal-form .license-container {
-  margin-bottom: 5px;
+.social-links .social-list-menu {
+  gap: 28px;
 }
+
+
+
+.checkbox-icon {
+  height: 16px;
+  width: 16px;
+}
+
 }
